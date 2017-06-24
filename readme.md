@@ -16,5 +16,5 @@ This is ready to use keyword driven framework for jMeter. Clone it and customize
 
 7- Maven integration & command line execution
 
-For more detailed information and video tutorials on the same, Visit http://www.wings2automation.com/2017/06/how-to-create-a-keyword-driven-framework-on-apache-jmeter & https://www.youtube.com/channel/UCYmEf3yBIKmRQrgR8upSJnQ 
+For more detailed information and video tutorials on the same, Visit http://www.wings2automation.com/2017/06/how-to-create-a-keyword-driven-framework-on-apache-jmeter AND https://www.youtube.com/channel/UCYmEf3yBIKmRQrgR8upSJnQ 
 
