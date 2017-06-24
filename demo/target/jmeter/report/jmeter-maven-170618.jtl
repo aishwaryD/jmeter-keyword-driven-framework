@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="1" lt="0" ts="1497785795101" s="true" lb="-- Executing TC001  -- Keywords: navigateToApp;changeLanguage;navigateToLogin;chooseLoginOptions;signUpUsingEmail;signUp" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="13222"/>
+<httpSample t="1593" lt="1560" ts="1497785795137" s="true" lb="navigateToUrl" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="11208"/>
+<sample t="1604" lt="1560" ts="1497785795123" s="true" lb="navigateToApp" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="ExecutionEngine 1-1" dt="" by="11208"/>
+<httpSample t="500" lt="465" ts="1497785796742" s="true" lb="changeToEnglish" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="9847"/>
+<sample t="502" lt="465" ts="1497785796742" s="true" lb="changeLanguage" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="ExecutionEngine 1-1" dt="" by="9847"/>
+<httpSample t="679" lt="678" ts="1497785797245" s="true" lb="clickLogin" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="3706"/>
+<sample t="680" lt="678" ts="1497785797244" s="true" lb="navigateToLogin" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="ExecutionEngine 1-1" dt="" by="3706"/>
+<httpSample t="628" lt="627" ts="1497785797926" s="true" lb="clickSignUp" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="3570"/>
+<sample t="629" lt="627" ts="1497785797925" s="true" lb="chooseLoginOptions" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="ExecutionEngine 1-1" dt="" by="3570"/>
+<httpSample t="494" lt="493" ts="1497785798556" s="true" lb="fillSignUpFields" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="3651"/>
+<sample t="496" lt="493" ts="1497785798555" s="true" lb="signUpUsingEmail" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="ExecutionEngine 1-1" dt="" by="3651"/>
+<httpSample t="1503" lt="815" ts="1497785799052" s="true" lb="doSignUp" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="10830">
+  <httpSample t="816" lt="815" ts="1497785799052" s="true" lb="https://bikroy.com/en/users/signup" rc="302" rm="Found" tn="" dt="text" by="503"/>
+  <httpSample t="683" lt="683" ts="1497785799872" s="true" lb="https://bikroy.com/en/my/dashboard?log=in" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="3604"/>
+</httpSample>
+<sample t="1505" lt="815" ts="1497785799052" s="true" lb="signUp" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="ExecutionEngine 1-1" dt="" by="10830"/>
+<sample t="0" lt="0" ts="1497785800558" s="true" lb="-- Executing TC002  -- Keywords: navigateToDashboard;navigateToSettings;logout;verifyLogout" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="13151"/>
+<httpSample t="853" lt="852" ts="1497785800559" s="true" lb="myDashboard" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="3380"/>
+<sample t="854" lt="852" ts="1497785800559" s="true" lb="navigateToDashboard" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="ExecutionEngine 1-1" dt="" by="3380"/>
+<httpSample t="709" lt="708" ts="1497785801413" s="true" lb="openSettings" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="6723"/>
+<sample t="710" lt="708" ts="1497785801413" s="true" lb="navigateToSettings" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="ExecutionEngine 1-1" dt="" by="6723"/>
+<httpSample t="1330" lt="523" ts="1497785802123" s="true" lb="doLogout" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="20842">
+  <httpSample t="527" lt="523" ts="1497785802123" s="true" lb="https://bikroy.com/en/users/logout" rc="302" rm="Found" tn="" dt="text" by="523"/>
+  <httpSample t="801" lt="800" ts="1497785802652" s="true" lb="https://bikroy.com/en?log=out&amp;c=1497785802741" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="5950"/>
+</httpSample>
+<sample t="1333" lt="523" ts="1497785802123" s="true" lb="logout" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="ExecutionEngine 1-1" dt="" by="20842"/>
+<httpSample t="713" lt="712" ts="1497785803457" s="true" lb="doVerifyLogout" rc="200" rm="OK" tn="ExecutionEngine 1-1" dt="text" by="5733"/>
+<sample t="714" lt="712" ts="1497785803457" s="true" lb="verifyLogout" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="ExecutionEngine 1-1" dt="" by="5733"/>
+
+</testResults>
