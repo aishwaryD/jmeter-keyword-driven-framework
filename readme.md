@@ -1,8 +1,10 @@
-JMeter Keyword Driven Framework
+JMeter Keyword Driven Framework 
+
+Keyword driven framework designs/implementations may vary from project to project. But the basics always remains the same – identify &define keywords and associate them to actions or procedures.
 
 This is ready to use keyword driven framework for jMeter. Clone it and customize it as per your requirements and needs. The whole architecture is divided into following 7 tasks:-
 
-1-  Identify a set of reusable keywords. 
+1- Identify a set of reusable keywords. 
 
 2- Associate an action related to these keywords.
 
