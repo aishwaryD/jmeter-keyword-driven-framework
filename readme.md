@@ -21,3 +21,5 @@ This is ready to use keyword driven framework for jMeter. Clone it and customize
 For more detailed information and video tutorials on the same, Visit http://www.wings2automation.com/2017/06/how-to-create-a-keyword-driven-framework-on-apache-jmeter AND https://www.youtube.com/channel/UCYmEf3yBIKmRQrgR8upSJnQ 
 
 Please Note: For this framework, we have used scripts based on Recording Controllers and designed keywords for them. But similar things you can do with your api endpoints as well to design similar keyword driven framework. 
+
+For more information and the latest updates, contact me at aishwarya.at.tech@gmail.com . Happy Coding...
