@@ -1,3 +1,5 @@
+Update: This is an old codebase with legacy readme/write-up. Please adjust your versions, tech stack, and methods. 
+
 JMeter Keyword Driven Framework 
 
 Keyword driven framework designs/implementations may vary from project to project. But the basics always remains the same – identify &define keywords and associate them to actions or procedures.
